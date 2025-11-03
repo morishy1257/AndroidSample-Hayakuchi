@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="@string/btn_fast"
-        app:layout_constraintEnd_toStartOf="@+id/btnNoraml"
+        app:layout_constraintEnd_toStartOf="@+id/btnNormal"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toStartOf="@+id/editText"
@@ -42,15 +42,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_slow"
-        app:layout_constraintBottom_toBottomOf="@+id/btnNoraml"
+        app:layout_constraintBottom_toBottomOf="@+id/btnNormal"
         app:layout_constraintEnd_toEndOf="@+id/editText"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btnNoraml"
-        app:layout_constraintTop_toTopOf="@+id/btnNoraml"
+        app:layout_constraintStart_toEndOf="@+id/btnNormal"
+        app:layout_constraintTop_toTopOf="@+id/btnNormal"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/btnNoraml"
+        android:id="@+id/btnNormal"
         style="@style/Widget.Material3.Button.OutlinedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
